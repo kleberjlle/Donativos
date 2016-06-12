@@ -82,6 +82,7 @@ $consulta_regioes = "SELECT *, SUM(valor_recebido) AS total FROM Conferencias, R
 $resultado_consulta_regioes = mysql_query($consulta_regioes);
 
 //Enquanto houver registros mostrar dados abaixo
+/*
 while ($registros_resultado_consulta_regioes = mysql_fetch_array($resultado_consulta_regioes)){
     $html .=   "<tr>";
     $html .=   "<td>";
@@ -92,6 +93,8 @@ while ($registros_resultado_consulta_regioes = mysql_fetch_array($resultado_cons
     $html .=   "</td>";
     $html .=   "</tr>";
     }
+ * 
+ */
 }
 
 //final do corpo do relatório
