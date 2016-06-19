@@ -8,13 +8,11 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <header>
-            <?php
-            //caso esteja na página login $pg_login recebe verdadeiro
-            $pg_login = TRUE;
-            include './inc/cabecalho_externo.php';
-            ?>
-        </header>
+        <?php
+        //caso esteja na página login $pg_login recebe verdadeiro
+        $pg_login = TRUE;
+        include './inc/cabecalho_externo.php';
+        ?>
         <div class="content_wrapper">
             <div class="container_12">
                 <div class="grid_9">
